@@ -46,6 +46,7 @@ function ContactForm() {
             css="w-full bg-white text-black border border-gray-400 px-4 py-3 rounded-md hover:bg-gray-200 transition-all"
           />
         </div>
+        {/* normal form */}
         <form className="bg-white shadow-md rounded-lg p-6 space-y-4">
           <div className="flex flex-col gap-2">
             <label htmlFor="name" className="text-sm font-medium">Name</label>
